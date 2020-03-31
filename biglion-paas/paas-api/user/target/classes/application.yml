@@ -1,0 +1,28 @@
+spring:
+  application:
+    #配置服务的名字
+    name: api-user
+    ## 开启多个加载配置文件
+  profiles:
+    active: dev
+
+mybatis:
+  #开启驼峰命名法
+  configuration:
+    map-underscore-to-camel-case: true
+
+mybatis-plus:
+  #mybatis 配置文件
+  config-location: classpath:mybatis-config.xml
+  # xml地址
+  mapper-locations: classpath:mapper/*.xml
+  # 实体扫描，多个package用逗号或者分号分隔
+  type-aliases-package: com.biglion.paas.api.user.model   #自己的实体类地址
+  global-config:
+    db-config:
+      db-type: mysql
+
+
+#测试nacos被调用的参数
+info:
+  test: test-success

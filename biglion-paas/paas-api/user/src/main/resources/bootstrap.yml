@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        #nacos配置中心的地址
+        server-addr: 127.0.0.1:8848
+        #nacos配置的编码方式
+        encode: utf-8
+        #配置组名子，需要在nacos的配置设置，不然找不到
+        group: PROVIDER_GROUP
+        #配置后缀，properties不需要
+        file-extension: yaml
+        #命名空间
+        namespace: 433632b0-04ae-4fbb-8f36-2e8b07de9e86
+
+      discovery:
+        namespace: 433632b0-04ae-4fbb-8f36-2e8b07de9e86

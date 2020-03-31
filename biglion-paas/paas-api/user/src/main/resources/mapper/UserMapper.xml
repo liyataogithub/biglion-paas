@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.biglion.paas.api.user.mapper.UserDao">
+
+	<resultMap id="BaseResultMap" type="com.biglion.paas.api.user.model.User">
+		<id column="id" property="id" />
+		<id column="user_address" property="userAddress" />
+		<id column="user_name" property="userName" />
+		<id column="user_sex" property="userSex" />
+	</resultMap>
+	<sql id="Base_Column_List">
+		id, user_address, user_name, user_sex
+	</sql>
+	
+</mapper>

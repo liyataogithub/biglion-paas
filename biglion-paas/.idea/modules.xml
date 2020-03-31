@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-client/api-client.iml" filepath="$PROJECT_DIR$/api-client/api-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-client/api-client-user/api-client-user.iml" filepath="$PROJECT_DIR$/api-client/api-client-user/api-client-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/biglion-paas.iml" filepath="$PROJECT_DIR$/.idea/biglion-paas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-all/common-all.iml" filepath="$PROJECT_DIR$/common/common-all/common-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paas-api/paas-api.iml" filepath="$PROJECT_DIR$/paas-api/paas-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pass-parent/pass-parent.iml" filepath="$PROJECT_DIR$/pass-parent/pass-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paas-api/user/user.iml" filepath="$PROJECT_DIR$/paas-api/user/user.iml" />
+    </modules>
+  </component>
+</project>
